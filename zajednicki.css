@@ -1,0 +1,102 @@
+.prvaSlika {
+    width: auto;
+    max-width: 80%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.najboljaPonuda{
+    position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9800;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px 0 0 0;
+}
+.footerKlasa{
+    background-color: #d9d9d9;
+    margin-top: 100px;
+    height: 1300px;
+
+}
+a {
+    color: black;
+  }
+  
+
+.footerDiv{
+    background-color: none;
+    padding-top: 20px;
+}
+
+#logoBlack{
+    border: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.navbar img{
+    height: 100px;
+    margin-right: 10px;
+}
+nav .container{
+    background-color: green;
+    
+}
+.navbar-nav a{
+    color: white;
+}
+
+body{
+    background-color: #DFE4F6;
+}
+div img{
+    border: black 3px solid;
+}
+
+nav img{
+    border:black 10px none
+}
+.navbar{
+    padding-top: 0;
+    margin-bottom: 50px;
+}
+.card{
+    border:black 2px solid;
+}
+.card img{
+    border: 0px;
+}
+
+
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+@media (max-width: 991.98px) { /* medium i small */
+    .footerDiv {
+      text-align: center;
+      border-bottom: 1px solid black;
+    }
+    .footerDiv img {
+        width: 100%;
+        max-width: 200px; 
+        height: auto;
+        margin: 0 auto;
+        
+      }
+  }
+@media (min-width: 992px) { /* za large */
+    .footerDiv {
+      text-align: left;
+    }
+  }
+
+

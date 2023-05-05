@@ -1,0 +1,20 @@
+.greenCard{
+    
+    
+    background-color: rgb(146, 243, 143);
+    font-weight: bold;
+}
+.redCard{
+ 
+    background-color: rgb(228, 143, 143);
+    font-weight: bold;
+}
+
+.greenCard p{
+    color:white;
+}
+
+.redCard p{
+    color:white;
+    
+}
